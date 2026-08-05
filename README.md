@@ -8,7 +8,7 @@
 
 ## ✨ Features
 
-- **🚀 Ultra-High Speed Engine (Up to 1,000,000 WPM)**: Sub-millisecond timing precision with native OS keyboard input batching (`SendInput` on Windows, `CGEvent` on macOS).
+- **🚀 Ultra-High Speed Engine (Up to 100,000 WPM)**: Sub-millisecond timing precision with native OS keyboard input batching (`SendInput` on Windows, `CGEvent` on macOS).
 - **🎯 3 Specialized Target Modes**:
   1. **VS Code Block Mode** *(Default)*: Automatically handles auto-paired brackets `()`, `{}`, `[]`, and quotes, using `Down-Home-Right` navigation to bypass duplicate closing characters.
   2. **VS Code Inline Mode**: Skips closing brackets/quotes using single-line `Right Arrow` navigation.
