@@ -48,7 +48,7 @@
 
 ---
 
-## 🪟 Windows Setup & Build
+## 🪟 Windows Setup
 
 ### Run Executable
 ```Double click the .exe or run this in powershell
