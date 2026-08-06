@@ -2,13 +2,13 @@
 
 > **Native, High-Speed Auto Typer with Dark Theme UI for Windows & macOS**
 
-`fxn typer` is a powerful, lightweight native auto-typer application built in C++ / Win32 for Windows and Objective-C++ / Cocoa for macOS. Designed for maximum speed, precision, and efficiency, it can stream keyboard input at up to **1,000,000 WPM** while automatically respecting target editor behaviors (like VS Code bracket completion and auto-closing quotes).
+`fxn typer` is a powerful, lightweight native auto-typer application built in C++ / Win32 for Windows and Objective-C++ / Cocoa for macOS. Designed for maximum speed, precision, and efficiency, it can stream keyboard input at up to **100,000 WPM** while automatically respecting target editor behaviors (like VS Code bracket completion and auto-closing quotes).
 
 ---
 
 ## ✨ Features
 
-- **🚀 Ultra-High Speed Engine (Up to 100,000 WPM)**: Sub-millisecond timing precision with native OS keyboard input batching (`SendInput` on Windows, `CGEvent` on macOS).
+- **🚀 Ultra-High Speed Engine (Up to 1,000,000 WPM)**: Sub-millisecond timing precision with native OS keyboard input batching (`SendInput` on Windows, `CGEvent` on macOS).
 - **🎯 3 Specialized Target Modes**:
   1. **VS Code Block Mode** *(Default)*: Automatically handles auto-paired brackets `()`, `{}`, `[]`, and quotes, using `Down-Home-Right` navigation to bypass duplicate closing characters.
   2. **VS Code Inline Mode**: Skips closing brackets/quotes using single-line `Right Arrow` navigation.
@@ -50,14 +50,13 @@
 
 ## 🪟 Windows Setup
 
-### Run Executable
-```Double click the .exe or run this in powershell
-.\auto_typer.exe
-```
+### Download the installer and Run
 
 ---
 
-## 🍎 macOS Setup 
+## 🍎 macOS Setup
+
+---
 
 On macOS, keyboard automation applications require explicit system approval to send key events into other applications:
 
@@ -69,6 +68,7 @@ On macOS, keyboard automation applications require explicit system approval to s
 ./auto_typer_mac
 ```
 
+---
 
 ## 📄 License
 
