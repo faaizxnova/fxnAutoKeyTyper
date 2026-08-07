@@ -60,14 +60,24 @@
 
 On macOS, keyboard automation applications require explicit system approval to send key events into other applications:
 
-1. Open **System Settings** on your Mac.
-2. Navigate to **Privacy & Security** $\rightarrow$ **Accessibility**.
-3. Click **`+`** or toggle the switch to **ON** for **`auto_typer_mac`** *(or **Terminal** if running directly from Terminal)*.
-
+1. Extract **FxnAutoTyperSetupMac**.
+   
 ```bash
-./auto_typer_mac
+unzip FxnAutoTyperSetupMac.zip
 ```
 
+2. Go the directory of **FxnAutoTyperSetupMac**.
+
+```bash
+cd FxnAutoTyperSetupMac
+```
+
+3. **Run** setup script.
+
+```bash
+bash setup.sh
+```
+4. **click** the fxn_typer
 ---
 
 ## 📄 License
