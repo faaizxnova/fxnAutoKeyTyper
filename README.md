@@ -58,8 +58,6 @@
 
 ---
 
-On macOS, keyboard automation applications require explicit system approval to send key events into other applications:
-
 1. Extract **FxnAutoTyperSetupMac**.
    
 ```bash
